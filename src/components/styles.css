@@ -1173,3 +1173,51 @@ ul li {
   padding-bottom: 2rem;
 }
 }
+
+
+
+
+
+.BackTop{
+  font-size: 1.25rem;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 8%;
+  right: 5%;
+  color: white;
+  background-color: #4a7afe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.BackTopRed{
+  background-color: rgb(181, 0, 0) !important;
+  font-size: 1.25rem;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 8%;
+  right: 5%;
+  background-color: #4a7afe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.icon {
+  animation: gototop 1.2s linear infinite alternate-reverse;
+}
+
+@keyframes gototop {
+  0% {
+    transform: translateY(-0.5rem);
+  }
+  100% {
+    transform: translateY(0.5rem);
+  }
+
+}
